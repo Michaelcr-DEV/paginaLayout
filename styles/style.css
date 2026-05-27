@@ -1,0 +1,148 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    border-radius: 10px 10px 0px 0px;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+}
+
+header img {
+    height: 40px;
+    width: auto;
+}
+
+.tituloHead {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 20px;
+    margin: 20px 30px 20px 30px;
+}
+
+.botoneraHead {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 20px 30px 20px 30px;
+}
+
+.banner {
+    height: 500px;
+    width: auto;
+    background-color:#d0acff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.txt1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.txt2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.btnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    background-color: #9748ff;
+    color: white;
+    font-size: 15px;
+    padding: 20px 40px;
+}
+
+.nuestros{
+    color: black;
+    font-size: 50px;
+    margin: 30px;
+    text-align: center;
+}
+
+.gridCards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: 0 auto;
+    gap: 30px;
+}
+.Tarjeta{
+    height: 250px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    
+}
+.imagenTarjeta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgimg{
+    height: 80px;
+    width: auto;
+    object-fit: cover;
+}
+
+.txt1Tarjeta{
+    font-size: 20px;
+}
+.preciosTarjeta{
+    font-size: 20px;
+    color: #9748ff;
+}
+.btnbtn{
+     border: none;
+    border-radius: 10px;
+    background-color: #9748ff;
+    color: white;
+    font-size: 15px;
+    padding: 20px 40px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+.txtF{
+    margin: 30px;
+}
+.izquierdaF{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+    margin: 30px;
+}
+.izquierdaF img{
+    height: 50px;
+    width: 50px;
+}
+
+    
